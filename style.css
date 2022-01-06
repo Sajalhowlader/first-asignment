@@ -15,11 +15,11 @@ img {
     width: 100%;
 }
 
-h1.heading span {
+.heading span {
     color: #ef3f70;
 }
 
-button.details_button {
+.details_button {
     padding: 12px 25px;
     outline: none;
     border: none;
@@ -28,7 +28,7 @@ button.details_button {
     cursor: pointer;
 }
 
-button.details_button a {
+.details_button a {
     text-decoration: none;
     font-size: 18px;
     color: white;
@@ -41,7 +41,7 @@ button.details_button a {
 .image_section {
     width: 40%;
 }
-h1.heading {
+.heading {
     line-height: 70px;
     font-size: 40px;
     color: #222222;
@@ -52,7 +52,7 @@ h1.heading {
     height: 120px;
 }
 
-p.containt_text {
+.containt_text {
     line-height: 25px;
     text-align: justify;
     padding: 10px 0px;
@@ -80,13 +80,13 @@ p.containt_text {
     border-radius: 15px;
 }
 
-h2.mission {
+.mission {
     color: #101010;
     margin-bottom: 15px;
     font-family: arial;
 }
 
-p.intorsuction {
+.intorsuction {
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -106,17 +106,17 @@ p.intorsuction {
 }
 
 .color_one {background-color: #e0deff;}
-h1.mission {
+.mission_heading{
     text-align: center;
     margin-bottom: 65px;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     color: #202020;
 }
-h1.mission span {
+.mission_heading span {
     color: #ff2663;
 }
-section.third_section {
+.third_section {
     margin-top: 100px;
 }
 
@@ -139,23 +139,59 @@ section.third_section {
     box-shadow: 7px 8px 13px #e9e2e2;
 }
 
-span.third_color {
+.third_color {
     color: #ff2663;
 }
 
-h1.non_develop {
+.non_develop {
     font-size: 40px;
     margin-bottom: 25px;
     line-height: 60px;
     color: #202020;
 }
-p.third_containt_parag {
+.third_containt_parag {
     text-align: justify;
     margin-bottom: 30px;
     line-height: 25px;
+}
+.about_color {
+    color: #1789b5;
 }
 .for_margin {
     margin-right: 0px;
     margin-left: 100px;
     box-shadow: 8px 6px 20px 0px #a1a1a1;
 }
+.my_self {
+    margin-bottom: 15px;
+}
+.fifth_heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.non_develop.for_size {
+    font-size: 30px;
+}
+.line {
+    width: 85%;
+    margin: 0 auto;
+    height: 3px;
+    border: none;
+    outline: none;
+    background: #d5d4d4;
+}
+.margn {
+    margin-bottom: 50px;
+    display: block;
+}
+.third_image.for_image_width {
+    width: 80%;
+    margin-right: 120px;
+    box-shadow: none;
+}
+.for_top {
+    margin-top: 40px;
+}
+.details_button:hover {
+    background: #414c50;}
