@@ -152,4 +152,10 @@ h1.non_develop {
 p.third_containt_parag {
     text-align: justify;
     margin-bottom: 30px;
+    line-height: 25px;
+}
+.for_margin {
+    margin-right: 0px;
+    margin-left: 100px;
+    box-shadow: 8px 6px 20px 0px #a1a1a1;
 }
