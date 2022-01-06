@@ -199,7 +199,8 @@ img {
 footer.last_footer {
     text-align: center;
     padding: 30px 0px;
-    background: #efefef;
+    background: #000000;
+    color: white;
 }
 .last_span {
     color: #1789b5;
