@@ -2,6 +2,7 @@
 section.heading_section {
     padding: 50px 0px;
     font-family: 'Libre Baskerville', serif;
+    margin-bottom: 50px;
 }
 
 .containt_rapper {
@@ -25,6 +26,7 @@ button.details_button {
     border: none;
     background-color: #13837d;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button.details_button a {
@@ -33,7 +35,7 @@ button.details_button a {
     color: white;
 }
 
-p.more {
+.more_info{
     margin-top: 20px;
 }
 
@@ -44,8 +46,11 @@ h1.heading {
     line-height: 70px;
     font-size: 40px;
     color: #222222;
-    border-left: 3px solid;
-  
+    border-left: 5px solid;
+    border-image: linear-gradient(#ef3f70,#222222);
+    border-image-slice: 1;
+    padding-left: 4px;
+    height: 120px;
 }
 
 p.containt_text {
@@ -53,10 +58,63 @@ p.containt_text {
     text-align: justify;
     padding: 10px 0px;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .first_info {
     width: 45%;
     margin-top: 30px;
 }
+.heading_two {
+    width: 40%;
+    margin-left: 9px;
+    height: 50%;
+}
 
+.containt_two {
+    width: 275px;
+    text-align: justify;
+}
+.second_containt_rpeer {
+    width: 290px;
+    background: #ff0000;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h2.mission {
+    color: #101010;
+    margin-bottom: 15px;
+    font-family: arial;
+}
+
+p.intorsuction {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.main_parents {
+    display: flex;
+    width: 83%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.color_two {
+    background: #e1e1e1;
+}
+
+.color_three {
+    background-color: #ffd1d1;
+}
+
+.color_one {background-color: #e0deff;}
+h1.mission {
+    text-align: center;
+    margin-bottom: 65px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #202020;
+}
+h1.mission span {
+    color: #ff2663;
+}
