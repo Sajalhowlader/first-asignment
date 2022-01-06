@@ -195,3 +195,17 @@ img {
 }
 .details_button:hover {
     background: #414c50;}
+
+footer.last_footer {
+    text-align: center;
+    padding: 30px 0px;
+    background: #efefef;
+}
+.last_span {
+    color: #1789b5;
+}
+
+p.last_footer {
+    font-size: 18px;
+    margin-top: 10px;
+}
